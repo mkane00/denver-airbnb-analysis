@@ -15,7 +15,7 @@ https://public.tableau.com/views/DenverAirbnbMarketAnalysisFinal/AIRBNBDENVERANA
 
 ## Dashboard Preview
 
-![Dashboard](images/dashboard.png)
+![Dashboard]Airbnb Denver Market Analysis DASHBOARD.png
 
 ## Key Insights
 
