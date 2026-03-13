@@ -1,37 +1,39 @@
-# denver-airbnb-exploratory-data-analysis
-Exploratory data analysis of Airbnb listings in Denver, including pricing, reviews, and neighborhood trends.
-# Denver Airbnb Exploratory Data Analysis
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue)
 
-## 📌 Project Overview
-This project explores Airbnb listing data in Denver, Colorado to identify pricing trends, customer behavior patterns, and neighborhood-level insights.
+# Denver Airbnb Market Analysis
 
-The goal was to conduct an open-ended exploratory data analysis (EDA) to uncover meaningful relationships within the dataset and generate data-driven questions for further investigation.
+Exploratory data analysis of Airbnb listings in Denver focusing on pricing patterns, demand, and spatial distribution.
 
----
+## Project Goals
 
-## 🎯 Business Questions
-- How are nightly prices distributed?
-- Is there a relationship between price and number of reviews?
-- Do minimum night requirements impact booking frequency?
-- Are there pricing differences across neighborhoods?
-- How might pricing patterns relate to neighborhood-level equity indicators?
+- Analyze pricing patterns across neighborhoods
+- Explore demand using review activity
+- Identify spatial clusters of Airbnb listings
 
----
+## Interactive Tableau Dashboard
 
-## 🛠️ Tools & Technologies
-- Python (Pandas, NumPy)
-- Matplotlib
-- Seaborn
-- Scikit-learn (StandardScaler, KMeans, silhouette_score)
-- GeoJSON (spatial mapping)
-- Jupyter Notebook
+🔗 View the dashboard:
+https://public.tableau.com/views/DenverAirbnbMarketAnalysisFinal/AIRBNBDENVERANALYSIS
 
-## Interactive Dashboard
-View the interactive dashboard on Tableau Public:
+## Dashboard Preview
 
-🔗 https://public.tableau.com/views/DenverAirbnbMarketAnalysisFinal/AIRBNBDENVERANALYSIS
+![Dashboard](images/dashboard.png)
 
-<div class='tableauPlaceholder' id='viz1773420645746' style='position: relative'><noscript><a href='#'><img alt='Denver Airbnb Market Analysis ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DenverAirbnbMarketAnalysisFinal&#47;AIRBNBDENVERANALYSIS&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DenverAirbnbMarketAnalysisFinal&#47;AIRBNBDENVERANALYSIS' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DenverAirbnbMarketAnalysisFinal&#47;AIRBNBDENVERANALYSIS&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1773420645746');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+## Key Insights
+
+- Listings cluster in central Denver neighborhoods
+- Prices are right-skewed with a few luxury listings
+- Demand shows weak correlation with price
+
+## Limitations
+
+- Data represents a snapshot in time
+- Availability does not guarantee bookings
+- Some listings contain limited review data
+
+## Next Steps
+
+Future analysis could explore seasonal pricing trends, occupancy rates, and comparisons with hotel pricing.src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DenverAirbnbMarketAnalysisFinal&#47;AIRBNBDENVERANALYSIS&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DenverAirbnbMarketAnalysisFinal&#47;AIRBNBDENVERANALYSIS' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DenverAirbnbMarketAnalysisFinal&#47;AIRBNBDENVERANALYSIS&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1773420645746');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
 
 ---
