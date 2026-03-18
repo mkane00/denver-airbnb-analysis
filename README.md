@@ -1,4 +1,4 @@
-# Denver Airbnb Market Analysis
+# Denver Airbnb Analysis
 
 Exploratory data analysis of Airbnb listings in Denver focusing on pricing patterns, demand, and spatial distribution.
 
