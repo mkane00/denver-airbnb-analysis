@@ -1,66 +1,50 @@
-# Denver Airbnb Analysis
+# Denver Airbnb Market Analysis
 
-Exploratory data analysis of Airbnb listings in Denver focusing on pricing patterns, demand, and spatial distribution.
+Analysis of Airbnb listings in Denver to identify pricing trends, demand patterns, and geographic distribution to support data-driven decision-making.
 
-## Project Goals
+## 🔧 Tools Used
+- Python (pandas, NumPy)
+- Tableau (interactive dashboard)
+- Data visualization & statistical analysis
 
-- Analyze pricing patterns across neighborhoods
-- Explore demand using review activity
-- Identify spatial clusters of Airbnb listings
+## 🎯 Project Objectives
+- Analyze pricing patterns across neighborhoods  
+- Evaluate demand using review activity  
+- Identify spatial clustering of listings  
 
-## Interactive Tableau Dashboard
-
-🔗 View the dashboard:
+## 📊 Interactive Dashboard
+🔗 View the dashboard:  
 https://public.tableau.com/views/DenverAirbnbMarketAnalysisFinal/AIRBNBDENVERANALYSIS
 
-## Dashboard Preview
-
-![Denver Airbnb Dashboard](Airbnb%20Denver%20Market%20Analysis%20DASHBOARD.png)
-
-## Key Insights
-
-- Listings cluster in central Denver neighborhoods
-- Prices are right-skewed with a few luxury listings
-- Demand shows weak correlation with price
-
-## Limitations
-
-- Data represents a snapshot in time
-- Availability does not guarantee bookings
-- Some listings contain limited review data
-
-## Next Steps
-Future analysis could explore seasonal pricing trends, occupancy rates, and comparisons with hotel pricing.
----
+## 📸 Dashboard Preview
+![Dashboard](images/dashboard.png)
 
 ## 🔎 Key Analysis Steps
-1. Data cleaning and handling missing values
-2. Distribution analysis of price
-3. Correlation analysis (reviews vs price)
-4. Feature scaling for clustering
-5. KMeans clustering to identify listing patterns
-6. Spatial mapping of average price by neighborhood
+- Cleaned and validated dataset, handling missing values  
+- Performed distribution analysis on pricing  
+- Conducted correlation analysis (reviews vs price)  
+- Applied KMeans clustering to identify listing patterns  
+- Built geographic visualizations to analyze neighborhood trends  
 
----
+## 💡 Key Insights
+- Listings are concentrated in central Denver neighborhoods  
+- Nightly prices are strongly right-skewed with a small number of premium listings  
+- Demand (reviews) shows little correlation with price  
+- Minimum stay requirements show a moderate negative relationship with booking activity  
+- Clear geographic variation in pricing across neighborhoods  
 
-## 📊 Key Insights
-- Nightly prices are strongly right-skewed (few premium outliers)
-- Reviews and price show near-zero linear correlation
-- Minimum nights moderately negatively correlated with reviews per month
-- Clear geographic pricing variation across neighborhoods
-- Emerging question: Do premium pricing patterns align with neighborhood equity indicators?
-
----
+## ⚠️ Limitations
+- Dataset represents a single time snapshot  
+- Availability does not guarantee booking frequency  
+- Some listings contain limited or missing review data  
 
 ## 🚀 Next Steps
-- Perform statistical testing on neighborhood price differences
-- Incorporate health equity index data
-- Develop regression modeling
-- Build an interactive dashboard
-
----
+- Perform statistical testing on neighborhood price differences  
+- Incorporate external data (e.g., socioeconomic or health equity indicators)  
+- Develop regression models to better understand pricing drivers  
+- Expand analysis to include seasonality and occupancy trends  
 
 ## 👩‍💻 Author
 Mary Kane  
-Operations & Data Analyst  
-Bilingual (English–Spanish)
+Data Analyst | Healthcare & Operations Background  
+Bilingual: English / Spanish
