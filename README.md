@@ -52,11 +52,6 @@ Future analysis could explore seasonal pricing trends, occupancy rates, and comp
 
 ---
 
-## 📁 Repository Structure
-
-
----
-
 ## 🚀 Next Steps
 - Perform statistical testing on neighborhood price differences
 - Incorporate health equity index data
