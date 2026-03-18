@@ -17,8 +17,8 @@ Analysis of Airbnb listings in Denver to identify pricing trends, demand pattern
 https://public.tableau.com/views/DenverAirbnbMarketAnalysisFinal/AIRBNBDENVERANALYSIS
 
 ## 📸 Dashboard Preview
-![Dashboard](images/dashboard.png)
-
+[![Dashboard](images/dashboard.png)
+] [(https://github.com/mkane00/denver-airbnb-analysis/blob/main/images/dasboard.png)]
 ## 🔎 Key Analysis Steps
 - Cleaned and validated dataset, handling missing values  
 - Performed distribution analysis on pricing  
