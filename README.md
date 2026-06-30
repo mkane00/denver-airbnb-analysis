@@ -45,6 +45,6 @@ https://public.tableau.com/views/DenverAirbnbMarketAnalysisFinal/AIRBNBDENVERANA
 - Expand analysis to include seasonality and occupancy trends  
 
 ## 👩‍💻 Author
-Mary Kane  
+Mary Kane  https://github.com/mkane00
 Data Analyst | Healthcare & Operations Background  
 Bilingual: English / Spanish
